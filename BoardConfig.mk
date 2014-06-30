@@ -29,10 +29,10 @@ TARGET_RECOVERY_FSTAB := device/samsung/p1/fstab.p1
 
 TARGET_OTA_ASSERT_DEVICE := GT-P1000,GT-P1000L,GT-P1000N,galaxytab,p1,p1l,p1n
 
-#BOARD_USES_HDMI := true
-TARGET_USE_HWDECODING_TVOUT := true
+# BOARD_USES_HDMI := true
+# TARGET_USE_HWDECODING_TVOUT := true
 
-TARGET_SEC_OMX_BIG_MMAP_BUFFER_SIZE := true
+# TARGET_SEC_OMX_BIG_MMAP_BUFFER_SIZE := true
 
 # Vold
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/s3c-usbgadget/gadget/lun%d/file"
