@@ -56,6 +56,10 @@ PRODUCT_COPY_FILES += \
 	device/samsung/p1/init.p1.usb.rc:recovery/root/usb.rc \
 	device/samsung/p1/fstab.p1:root/fstab.p1
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/samsung/p1/twrp.fstab:recovery/root/etc/twrp.fstab
+
 # RIL
 # Permissions
 PRODUCT_COPY_FILES += \
