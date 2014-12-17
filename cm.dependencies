@@ -3,7 +3,7 @@
         "remote":      "storm31",
         "repository":  "android_device_samsung_p1-common",
         "target_path": "device/samsung/p1-common",
-        "revision":    "cm-11.0-sgt7"
+        "revision":    "cm-12.0-sgt7"
     },
     {
         "repository":  "android_hardware_samsung",
@@ -13,7 +13,7 @@
         "remote":      "storm31",
         "repository":  "android_kernel_samsung_aries",
         "target_path": "kernel/samsung/aries",
-        "revision":    "cm-11.0-google2"
+        "revision":    "cm-12.0-current"
     },
     {
         "repository": "android_packages_apps_SamsungServiceMode",
